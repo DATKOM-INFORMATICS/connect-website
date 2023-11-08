@@ -1,0 +1,153 @@
+/* Launch Page */
+#LauchBody{
+    background-color: #FFA352 !important;
+    min-height: 100vh;
+}
+#AvrilLaunch{
+    font-size: 10vh;
+    font-weight: bold;
+}
+#BetaLaunch{
+    color: #FFF;
+    background-color: #6E61FF;
+    padding: 3vh;
+    text-decoration: none;
+}
+.termsLinks a{
+    color: #1F1F1F !important;
+    font-size: small;
+    text-decoration: none;
+}
+.termsLinks a:hover{
+    color: #6E61FF !important;
+    font-size: small;
+    text-decoration: underline;
+}
+.copyright {
+    color: #1F1F1F;
+    font-size: small;
+    text-align: right;
+    text-decoration: none !important;
+}
+.copyright a{
+    color: #1F1F1F;
+    text-decoration: none !important;
+}
+/* Beta */
+#BetaTitre{
+    background-color: #FFA352 !important;
+    /* background-color: #F98D33 !important; */
+}
+.betalogin{
+    background-color: #6E61FF;
+    border: none;
+    color: #FFF;
+    padding: 2vh;
+}
+
+/*
+########################################################################################
+Responsive
+########################################################################################
+*/
+
+@media only screen and (max-width: 575px){
+
+    .responsive-none{
+        display: none !important;
+    }
+    .responsive-show{
+        display: block !important;
+    }
+    .responsive-textcenter{
+        text-align: center !important;
+    }
+    .responsive-padding{
+        padding: 4vh;
+    }
+    .responsive-center{
+        justify-content: center;
+    }
+
+    /* beta#################################" */
+
+    #AvrilLaunch{
+        font-size: 6vh;
+        font-weight: bold;
+    }
+    .copyright p{
+        color: #1F1F1F;
+        font-size: small;
+        text-align: center !important;
+    }
+    .tp5-mob{
+        margin-top: 5vh !important;
+    }
+    #pre-footer{
+        text-align: center !important;
+    }
+    #page-header-cta h1{
+        font-size: 50px !important;
+        margin-top: 25vh;
+    }
+    /* Homepage#################################" */
+    #homepage-header-cta{
+        text-align: center;
+    }
+    #homepage-header-cta h1{
+        font-size: 50px !important;
+        margin-top: 16vh;
+    }
+
+    footer{
+        height: 100vh;
+        text-align: center !important;
+    }
+}
+
+/* ##########################"HOMEPAGE################# */
+.responsive-show{
+    display: none !important;
+}
+#homepage-header-cta{
+    color: #fff;
+    height: 110vh;
+    background-color: #6E61FF;
+}
+#homepage-header-cta h1{
+    font-size: 65px;
+    color: #fff;
+    margin-top: 10vh;
+}
+#homepage-header-cta a{
+    color: #FFF;
+    background-color: #6E61FF;
+    border: 2px white solid;
+    padding: 3vh;
+    border-radius: 75px;
+}
+#homepage-header-cta a:hover, .prise-rdv:hover{
+    background-color: #FFF;
+    color: #6E61FF;
+    transition: all 0.5s ease-out;
+}
+#homepage-transition{
+    /* background-color: #9C9CFF; */
+    background-color: rgba(110, 97, 255, .1);
+}
+
+/* ##########################"MANIFESTO################# */
+#manifesto{
+    background-color: rgba(110, 97, 255, .1);
+}
+/* ##########################"PAGES################# */
+#page-header-cta{
+    color: #fff;
+    height: 100vh;
+    background-color: #6E61FF;
+}
+#page-header-cta h1{
+    font-size: 65px;
+    color: #fff;
+    margin-top: 25vh;
+}
